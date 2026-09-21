@@ -1,4 +1,13 @@
-# GeyserMC Paper 26.3 Fix — CraftItemStack Reflection Patch
+<p align="center">
+  <img src="assets/logo.png" width="180" alt="Geyser Paper 26.3 Fix">
+</p>
+
+<h1 align="center">Geyser Paper 26.3 Fix</h1>
+
+<p align="center">
+  <strong>CraftItemStack reflection patch and automated bytecode patcher for Geyser-Spigot on Paper 26.3+.</strong><br>
+  Fixes the fatal <code>asCraftMirror</code> NoSuchMethodException / IllegalArgumentException crash on server startup.
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/paper-26.3%2B-blue" alt="Paper 26.3+">
@@ -8,7 +17,14 @@
   <img src="https://img.shields.io/badge/status-tested%20%26%20verified-brightgreen" alt="Status: Verified">
 </p>
 
-Bytecode patch and automated patcher script for **Geyser-Spigot** running on **Paper 26.3+**. Resolves the fatal `IllegalArgumentException` on startup caused by a reflection lookup typo in shaded `incendo.cloud`.
+<p align="center">
+  <a href="#summary">Summary</a> &middot;
+  <a href="#root-cause">Root cause</a> &middot;
+  <a href="#the-fix">The fix</a> &middot;
+  <a href="#quickstart">Quickstart</a> &middot;
+  <a href="#verification">Verification</a> &middot;
+  <a href="#bedrock-protocol-note-paper-263--viabackwards">Protocol note</a>
+</p>
 
 ---
 
