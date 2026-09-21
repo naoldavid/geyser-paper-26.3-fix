@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="180" alt="Geyser Paper 26.3 Fix">
+  <img src="assets/geyser.png" width="180" alt="Geyser Paper 26.3 Fix">
 </p>
 
 <h1 align="center">Geyser Paper 26.3 Fix</h1>
