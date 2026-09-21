@@ -1,0 +1,8 @@
+*.jar
+*.bak
+*.tmp
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+*.log
